@@ -10,6 +10,9 @@ class Learner {
   public Learner() {
 
   }
+  public Learner(final int arglearnerId) {
+    this.learnerId = arglearnerId;
+  }
 
   public Product(final int arglearnerId, final String argfirstName, final String argdateOfBirth, final String argemail) {
     this.learnerId = arglearnerId;
