@@ -1,7 +1,7 @@
 -- Creation of database user and granting all permissions to the user 
 
 CREATE DATABASE VLS;
--- DROP DATABASE MLP343;
+-- DROP DATABASE VLS;
 CREATE USER 'VLS'@'localhost' IDENTIFIED BY 'VLS';
 -- DROP USER 'VLS'@'localhost';
 GRANT ALL ON MLP343.* TO 'VLS'@'localhost';
